@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Giraffe
+namespace Start
 {
     class Program
     {

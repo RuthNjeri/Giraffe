@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Giraffe", "Giraffe\Giraffe.csproj", "{B36B465E-A688-4151-9814-0D764E2E5D2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Start", "Giraffe\Start.csproj", "{B36B465E-A688-4151-9814-0D764E2E5D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables", "variables\Variables.csproj", "{834B6C3F-FEE4-4C3B-AB1D-5F89AA705E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "Data Types\DataTypes.csproj", "{14F1D009-7767-4640-B4A6-1AE9C5B3D554}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B36B465E-A688-4151-9814-0D764E2E5D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B36B465E-A688-4151-9814-0D764E2E5D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B36B465E-A688-4151-9814-0D764E2E5D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834B6C3F-FEE4-4C3B-AB1D-5F89AA705E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834B6C3F-FEE4-4C3B-AB1D-5F89AA705E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834B6C3F-FEE4-4C3B-AB1D-5F89AA705E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834B6C3F-FEE4-4C3B-AB1D-5F89AA705E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F1D009-7767-4640-B4A6-1AE9C5B3D554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F1D009-7767-4640-B4A6-1AE9C5B3D554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F1D009-7767-4640-B4A6-1AE9C5B3D554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F1D009-7767-4640-B4A6-1AE9C5B3D554}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

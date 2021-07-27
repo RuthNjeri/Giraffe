@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes", "Data Types\Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.csproj", "{82D1978F-343B-478C-A9BC-164D25D33FAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numbers", "Numbers\Numbers.csproj", "{5BFDDE49-AC65-4D51-9C71-8F1455EC95CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{82D1978F-343B-478C-A9BC-164D25D33FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82D1978F-343B-478C-A9BC-164D25D33FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82D1978F-343B-478C-A9BC-164D25D33FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFDDE49-AC65-4D51-9C71-8F1455EC95CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFDDE49-AC65-4D51-9C71-8F1455EC95CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFDDE49-AC65-4D51-9C71-8F1455EC95CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFDDE49-AC65-4D51-9C71-8F1455EC95CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

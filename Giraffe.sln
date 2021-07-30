@@ -41,13 +41,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "for_loop", "for_loop\for_lo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "build_an_exponent_method", "build_an_exponent_method\build_an_exponent_method.csproj", "{04A20A78-2178-48A2-B675-1E202B0175E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D_array", "2D_array\2D_array.csproj", "{8356B34C-ECB6-463D-B0A4-0FFF1D7C660B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2D_array", "2D_array\2D_array.csproj", "{8356B34C-ECB6-463D-B0A4-0FFF1D7C660B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comments", "Comments\Comments.csproj", "{5CFEEBC2-5F66-4E43-931F-A9E790F8A555}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comments", "Comments\Comments.csproj", "{5CFEEBC2-5F66-4E43-931F-A9E790F8A555}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{1A598C4D-4642-428A-8BB0-ED729B7AD4DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{1A598C4D-4642-428A-8BB0-ED729B7AD4DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesAndObjects", "ClassesAndObjects\ClassesAndObjects.csproj", "{F2E1053B-8898-414D-9596-FA46189373DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesAndObjects", "ClassesAndObjects\ClassesAndObjects.csproj", "{F2E1053B-8898-414D-9596-FA46189373DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{C38F9A4F-6ACB-460A-865D-3C5C8D1709CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{F2E1053B-8898-414D-9596-FA46189373DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2E1053B-8898-414D-9596-FA46189373DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2E1053B-8898-414D-9596-FA46189373DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38F9A4F-6ACB-460A-865D-3C5C8D1709CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38F9A4F-6ACB-460A-865D-3C5C8D1709CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38F9A4F-6ACB-460A-865D-3C5C8D1709CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38F9A4F-6ACB-460A-865D-3C5C8D1709CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

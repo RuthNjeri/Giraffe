@@ -21,6 +21,8 @@ namespace ClassesAndObjects
             Console.WriteLine(book3.BookType);
             Console.WriteLine(book2.BookType);
             Console.WriteLine(Book.bookCount);
+            Console.WriteLine(book1.GetBookCount());
+            Book.RecordBook("Dare To Lead");
 
             Console.ReadLine();
         }

@@ -32,6 +32,12 @@ namespace ClassesAndObjects
             bookCount++;
         } 
 
+        // To access a class attribute from an object, you create a public method that can access the class attribute
+        public int GetBookCount()
+        {
+            return bookCount;
+        }
+
         // Object Methods
         public bool HasManyPages()
         {
@@ -60,6 +66,16 @@ namespace ClassesAndObjects
                     bookType = "N/A";
                 }
             }
+        }
+
+        // A static method belongs to the class
+        // You can have a class that only contains static methods
+        // You cannot create an instance of a static class, 
+             // static class Test{
+               // }
+        public static void RecordBook(string title)
+        {
+            Console.WriteLine(title +" recorded");
         }
         
     }

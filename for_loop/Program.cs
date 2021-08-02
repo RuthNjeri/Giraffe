@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace for_loop
 {
@@ -13,6 +15,16 @@ namespace for_loop
             }
 
             Console.ReadLine();
+
+            // foreach
+            // Detour: Array vs List<T>, resizing arrays is expensive, List is better to use.
+            // If you knw the data is of a fixed length then you can use an array.
+            // List<T> offers a lot more functionality than an array.
+            var fibNumbers = new List<int> { 0, 1, 1, 2, 3, 5, 8, 13 };
+            foreach (int element in fibNumbers)
+            {
+                Console.Write($"{element} test");
+            }
 
         }
 

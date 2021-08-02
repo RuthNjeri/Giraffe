@@ -14,6 +14,7 @@ namespace Arrays
 
             // Array of strings
             string[] friends = new string[5]; // Tell c# how many elements the array can hold
+            //int[] numbers = { };
             friends[0] = "Nyakio";
             friends[1] = "Jimmy";
             friends[2] = "Juma";
@@ -21,10 +22,14 @@ namespace Arrays
 
             // Update elements
             luckyNumbers[1] = 900;
+            //numbers[0] = 9;
+            //numbers[1] = 8;
+            
 
             // Array Access 
             Console.WriteLine(luckyNumbers[0]); // first element, 4
             Console.WriteLine(luckyNumbers[1]); // second number, 900...was updated in line 15
+            //Console.WriteLine(numbers[1]);
 
 
         }

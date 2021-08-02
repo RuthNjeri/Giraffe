@@ -17,6 +17,9 @@ namespace Variables
             Console.WriteLine("He really liked the name " + characterName);
             Console.WriteLine("But didn't like being " + characterAge);
 
+            // Another way to print
+            Console.WriteLine("{0} is moving out", characterName);
+
             Console.ReadLine();
         }
     }
